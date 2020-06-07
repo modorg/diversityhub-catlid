@@ -1,6 +1,6 @@
-url: "https://pokoleniawpracy.pl" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://modorg.pl/diversityhub-catlid/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Puap - Bezpłatne szkolenia, doradztwo i narzędzia dla firm"
+title: "CATLID - Cultural Ambassadors Target Loneliness through Intercultural Dialogue"
 
 # Build settings
 sass:

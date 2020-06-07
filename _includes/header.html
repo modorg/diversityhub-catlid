@@ -2,7 +2,7 @@
   <div class="container-fluid">
 
     <div id="logo" class="pull-left">
-      <h1><a href="{{ site.baseurl }}/" class="scrollto">PUAP 50+</a></h1>
+      <h1><a href="{{ site.baseurl }}/" class="scrollto">CATLID</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a> -->
     </div>
@@ -11,17 +11,9 @@
       <ul class="nav-menu">
         {% if page.layout == "default_main" %}
           <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">Projekt</a></li>
-          <li><a href="#portfolio">Do pobrania</a></li>
-          <li><a href="#services">Korzyści</a></li>
-          <li class="menu-has-children"><a href="{{ "more" | prepend: site.baseurl }}">Więcej</a>
-            <ul>
-              {% include subpage_links.html %}
-            </ul>
-          </li>
-        {% else %}
-          <li><a href="{{ site.baseurl }}/">Główna</a></li>
-          {% include subpage_links.html %}
+          <li><a href="#about">About the project</a></li>
+          <li><a href="#services">Training Framework</a></li>
+          <li><a href="#portfolio">Project results</a></li>
         {% endif %}
 
       </ul>
